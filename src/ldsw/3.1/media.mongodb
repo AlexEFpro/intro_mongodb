@@ -1,0 +1,35 @@
+//insercion de la base de datos //
+use("Media")
+db.Media.insertMany([
+  {
+  tipo : 'libro',
+  titulo : 'Java para todos',
+  ISBN: 987-1-2344-5334-8,
+  editorial : 'Anaya',
+  Autor: [
+    'Pepe Caballero',
+     'Isabel Sanz',
+     'Timoteo Marino'],
+  capítulos : [
+  {capitulo :1,
+  titulo : 'Primeros pasos en Java',
+  longitud : 20
+  },
+  {capitulo:2,
+  titulo : 'Primeros pasos en Java',
+  longitud : 25
+  }]
+  },
+  { tipo: 'CD',
+    Artista: 'Los piratas',
+    Titulo: 'Recuerdos',
+    canciones: []
+  },
+    { tipo: 'DVD',
+    Titulo: 'Matrix',
+    estreno: 1999,
+    actores: []
+    }
+
+])
+db.Media.find();

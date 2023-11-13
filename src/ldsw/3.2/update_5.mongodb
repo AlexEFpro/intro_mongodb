@@ -1,0 +1,3 @@
+use("Media")
+db.Media.renameCollection("Multimedia")
+db.Multimedia.find()

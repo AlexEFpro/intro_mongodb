@@ -1,0 +1,13 @@
+use("Media")
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421226")},
+{$set:{
+actores:[
+  {actor:'Keanu Reeves'},
+  {actor:'Carry-Anne Moss'},
+  {actor:'Laurence Fishburne'},
+  {actor: 'Hugo Weaving'},
+  {actor:'Gloria Foster'},
+  {actor: 'Joe Pantoliano'}
+]
+}})
+db.Media.find()

@@ -1,0 +1,26 @@
+use("Media")
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421224")},{$set:{Autor:['Pepe Caballero','Isabel Sanz', 'Timoteo Marino','María Sancho']}})
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421226")},{$set:{actores:[{
+  actor: "Keanu Reeves"
+},
+{
+  actor: "Carry-Anne Moss"
+},
+{
+  actor: "Laurence Fishburne"
+},
+{
+  actor: "Hugo Weaving"
+},
+{
+  actor: "Gloria Foster"
+},
+{
+  actor: "Joe Pantoliano"
+},
+{
+  actor: "Antonio Banderas"
+},
+{actor: "Brad Pitt"},
+{actor: "Natalie Portman"}]}})
+db.Media.find()

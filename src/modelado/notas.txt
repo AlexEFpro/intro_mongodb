@@ -1,0 +1,13 @@
+*los limites de peso dentro de mongodb es de 16mb
+*latencia de datos hace referencia a donde esta ubicado el servidor como tal ya que esto implicaria un tiempo mas largo derespuesta de la solicitud de un usuario
+*Metodologia de modelado: requerimientos, identificacion de diagrama de relacion , aplicacion de patrones
+*Aspectos a evaluar:
+Escenarios -> en donde va a actuar el modelo de negocio, reglas de negocio  ->workload= docuemnto que se construye en base a escenarios  expertos y la forma en que funciona el sistema actual
+Expertos -> personal que actuara referente al negocio
+Sistema actual-> como funciona el sistema actual, excel, bd, ??
+BD admin
+
+workload: en esta se identifican relaciones ,escenarios.-> Tamañoi de los datos, Consultas e indices , operaciones importantes y algunas suposiciones de funcionamiento
+relaciones : sistemas actuales y bd admin, identificacion de entidades, atributos, restricciones relaciones, y definir si embeber o referenciar
+patrones : basado en buenas practicas
+En conjunto estos tres productos se centran en el diseño

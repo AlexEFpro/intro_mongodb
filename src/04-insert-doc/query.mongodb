@@ -1,0 +1,3 @@
+use("Hierbana")
+
+db.products.find()

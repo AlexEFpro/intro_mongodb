@@ -1,0 +1,16 @@
+use("Hierbana")
+
+db.products.insertOne({
+    title: "Crema para peinar",
+    description: "Crema para Peinar de uso diario. Facilita el peinado, dejando el pelo más suave y manejable, controla el frizz y protege el cabello. Ayuda a desenredar, detener la caída y a hidratar el cabello de manera natural. Hecho a base de extractos naturales, con aceite de árgan, aceite de ricino , aceite de uva y menta. Libre de sulfatos y parabenos",
+    presentation: "250ml",
+    price: 170,
+    src:'Products/Crema_para_peinar.png'
+})
+db.products.insertOne({
+    title: "Loción Capilar",
+    description: "La calvicie, problemas de alopecia y entradas por pérdida del cabelloGracias a sus ingredientes con extractos naturales y sus vitaminas A, B y E. Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar.Beneficios: Abre e folículo, hace un détox al cuero cabelludo ya que lo limpia, nutre y así estimula el nacimiento de cabello nuevo de forma natural.Ideal para personas con entradas, alopecia, personas que sufren de pérdida excesiva de cabello y quieran recuperarlo más rápido.",
+    presentation: "150ml",
+    price: 265,
+    src:'Products/Locion_Capilar.png'
+})

@@ -1,0 +1,193 @@
+use("Hierbana")
+db.products.insertMany([
+    {
+        title: "Crema para peinar",
+        description: `Crema para Peinar de uso diario. Facilita el peinado, dejando el pelo más suave y manejable, controla el frizz y protege el cabello.
+        Ayuda a desenredar, detener la caída y a hidratar el cabello de manera natural.
+        Hecho a base de extractos naturales, con aceite de árgan, aceite de ricino , aceite de uva y menta.
+        Libre de sulfatos y parabenos`,
+        presentation: "250ml",
+        price: 170,
+        src:'Products/Crema_para_peinar.png'
+      },
+      {
+        title: "Loción Capilar",
+        description: `La calvicie, problemas de alopecia y entradas por pérdida del cabello
+        Gracias a sus ingredientes con extractos naturales y sus vitaminas A, B y E. Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar.
+        Beneficios: Abre e folículo, hace un détox al cuero cabelludo ya que lo limpia, nutre y así estimula el nacimiento de cabello nuevo de forma natural.
+        Ideal para personas con entradas, alopecia, personas que sufren de pérdida excesiva de cabello y quieran recuperarlo más rápido.`,
+        presentation: "150ml",
+        price: 265,
+        src:'Products/Locion_Capilar.png'
+      },
+      {
+        title: "Shampoo de Extractos Naturales",
+        description: `Acelera el crecimiento del cabello
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+        Nutre el cabello desde la raíz, nivela el ph del cuero cabelludo y estimula el crecimiento del cabello.
+        Para todo tipo de cabello. Ideal para mujeres embarazadas o en lactancia, personas con cáncer o en tratamiento de quimioterapia, personas con secuelas de COVID-19, personas con problemas hormonales, personas que tuvieron dengue.`,
+        presentation: "500ml",
+        price: 350,
+        src:'Products/Shampoo_extractos_naturales.png'
+      },
+      {
+        title: "Shampoo Suero Estabilizador Hidratante",
+        description: `Hidrata el cabello desde la raíz.
+        Shampoo hecho a base de suero y aceite de argán, el cual repara las puntas, aporta brillo y reduce el frizz. Por su fórmula, hidrata el cuero cabelludo y ayuda a combatir la caída del cabello y la caspa.
+        Ideal para cabello reseco, procesado, rizado o maltratado. `,
+        presentation: "500ml",
+        price: 395,
+        src:'Products/Shampoo_suero_estabilizador.png'
+      },
+      {
+        title: "Acondicionador",
+        description: `Crema para Peinar de uso diario. Facilita el peinado, dejando el pelo más suave y manejable, controla el frizz y protege el cabello.
+        Ayuda a desenredar, detener la caída y a hidratar el cabello de manera natural.
+         Hecho a base de extractos naturales, con aceite de árgan, aceite de ricino , aceite de uva y menta.
+        Libre de sulfatos y parabenos`,
+        presentation: "500ml",
+        price: 350,
+        src:'Products/Acondicionador.png'
+      },
+      {
+        title: "Kit de Viaje",
+        description: `Shampoo de Extractos Naturales: 125 ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Shampoo Suero Estabilizador Hidratante: 125 ML
+
+        Shampoo hecho a base de suero y aceite de argán, ayuda a reparar las puntas, aporta brillo y reduce el frió. Gracias a su fórmula, hidrata el cabello desde la raíz y ayuda a combatir la caspa.
+
+        Acondicionador: 125 ML
+
+        Acondicionador que brinda protección, brillo y suavidad para el cabello. Gracias a sus ingredientes naturales, evita la resequedad y cierra las puntas abiertas.`,
+        presentation: "125ml",
+        price: 190,
+        src:'Products/kit_viaje.png'
+      },
+      {
+        title: "Kit Anticaída",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Loción Capilar: 125ML
+
+        Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar.`,
+        presentation: " 500ml y 125ml",
+        price: 545,
+        src:'Products/kit_anticaida.png'
+      },
+      {
+        title: "Kit Shampoo + Acondicionador",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Acondicionador: 500ML
+
+        Acondicionador que brinda protección, brillo y suavidad para el cabello. Gracias a sus ingredientes naturales, evita la resequedad y cierra las puntas abiertas.`,
+        presentation: " 500ml",
+        price: 630,
+        src:'Products/shampoo+acondicionador.png'
+      },
+      {
+        title: "Kit Anticaida + Acondicionador",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Acondicionador: 500ML
+
+        Acondicionador que brinda protección, brillo y suavidad para el cabello. Gracias a sus ingredientes naturales, evita la resequedad y cierra las puntas abiertas.
+
+        Loción Capilar: 125ML
+
+        Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar.
+        `,
+        presentation: " 500ml 125ml",
+        price: 870,
+        src:'Products/kit_anticaida+acondicionador.png'
+      },
+      {
+        title: "Kit Anticaida + Shampoo Suero",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Shampoo Suero Estabilizador Hidratante: 500ML
+
+        Shampoo hecho a base de suero y aceite de árganos, ayuda a reparar las puntas, aporta brillo y reduce el frizz. Gracias a su fórmula, hidrata el cabello desde la raíz y ayuda a combatir la caspa.
+
+        Loción Capilar: 125ML
+
+        Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar.`,
+        presentation: " 500ml 125ml",
+        price: 905,
+        src:'Products/anticaida+shampoo_suero.png'
+      },
+      {
+        title: "Shampoos + Acondicionador",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Shampoo Suero Estabilizador Hidratante: 500ML
+
+        Shampoo hecho a base de suero y aceite de árganos, ayuda a reparar las puntas, aporta brillo y reduce el frizz. Gracias a su fórmula, hidrata el cabello desde la raíz y ayuda a combatir la caspa.
+
+        Acondicionador: 500ML
+
+        Acondicionador que brinda protección, brillo y suavidad para el cabello. Gracias a sus ingredientes naturales, evita la resequedad y cierra las puntas abiertas. `,
+        presentation: " 500ml",
+        price: 995,
+        src:'Products/Shampoos+acondicionador.png'
+      },
+      {
+        title: "Colageno Marino",
+        description: `Péptidos de colágeno de pescado. Hecho a partir de un sólo ingrediente.
+
+        Es 100% puro y es amigable con los pescatarios.
+
+        Ofrece múltiples beneficios en:
+
+        Cabello: La pérdida de cabello es causada, en parte, por tener una cantidad insuficiente de colágeno en nuestro cuerpo. El colágeno  marino, ayudará a disminuir la caída, aportando  mayor volumen, brillo,  una mejora textura y crecerá mucho más rápido.
+        Huesos y Articulaciones: Reduce la molestia articular y la rigidez, previene la degeneración de cartílagos y ayuda a mantener la fuerza ósea.
+        Efectos Antiedad: Mejora en la estructura y densidad del colágeno y  aumenta los niveles de hidratación en la piel.
+        Nutrición Deportiva: Es una fuente de proteína y energía, regenerando los músculos para el aumento de masa muscular.
+        Instrucciones de uso: tomar una cucharada diaria  de colágeno  acompañada de la bebida de tu preferencia. SIN OLOR, SIN COLOR, SIN SABOR.
+
+
+        Este producto no es un medicamento.
+
+        El consumo de este producto es responsabilidad de quien lo recomienda y de quien lo usa. `,
+        presentation: " 350gr",
+        price: 1150,
+        src:'Products/colageno.png'
+      },
+      {
+        title: "Kit Completo",
+        description: `Shampoo Extractos Naturales: 500ML
+
+        Shampoo auxiliar para contrarrestar la calvicie, estimular el crecimiento del cabello, detener la caída y fortalecer las hebras débiles y quebradizas.
+
+        Shampoo Suero Estabilizador Hidratante: 500ML
+
+        Shampoo hecho a base de suero y aceite de árganos, ayuda a reparar las puntas, aporta brillo y reduce el frizz. Gracias a su fórmula, hidrata el cabello desde la raíz y ayuda a combatir la caspa.
+
+        Acondicionador: 500ML
+
+        Acondicionador que brinda protección, brillo y suavidad para el cabello. Gracias a sus ingredientes naturales, evita la resequedad y cierra las puntas abiertas.
+
+        Loción Capilar: 125ML
+
+        Es un magnífico estimulante para el crecimiento del cabello, el cual actúa en la profundidad del cuero cabelludo para multiplicar el número de cabellos y recrear el volumen capilar. `,
+        presentation: " 500ml, 125ml",
+        price: 1220,
+        src:'Products/kit_Completo.png'
+      }
+
+]);

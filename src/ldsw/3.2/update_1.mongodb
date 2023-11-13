@@ -1,0 +1,3 @@
+use("Media")
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421224")},{$set:{Autor:['María Sancho']}})
+db.Media.find()

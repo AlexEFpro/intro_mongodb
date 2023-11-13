@@ -1,0 +1,8 @@
+use("Media")
+db.Media.updateOne({_id: ObjectId("652c2589ba57e73b9a7f50c9")},
+{$set: {leidos:5}})
+db.Media.updateOne({_id: ObjectId('652bf83a6c99a22e7a421226')},
+{$set:{genero:'ciencia ficcion'}})
+db.Media.updateOne({_id: ObjectId('652bf83a6c99a22e7a421224')},
+{$set:{editorial:''}})
+db.Media.find()

@@ -1,0 +1,3 @@
+use("Data")
+db.Data.directory.deleteOne({"_id": ObjectId('652b3529ecbd0856e0bc48ae')});
+db.Data.directory.find()

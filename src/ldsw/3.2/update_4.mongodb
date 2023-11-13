@@ -1,0 +1,11 @@
+use("Media")
+
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421225")},
+{$push:{canciones:{
+  cancion:5,
+  titulo: "El atardecer",
+  longitud: "6:50"
+  }
+  }})
+
+db.Media.find()

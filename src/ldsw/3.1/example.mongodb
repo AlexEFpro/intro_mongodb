@@ -1,0 +1,16 @@
+use("Data")
+db.Data.directory.insertOne(
+  {
+    name:'Laura',
+    phone:3321303000
+
+});
+db.Data.directory.insertOne(
+  {
+    name:'Alex',
+    phone:33112323
+  }
+);
+db.Data.directory.updateOne({name:'Alex'},
+{$set:{status:'active'},
+$currentDate:{lastModified:true}});

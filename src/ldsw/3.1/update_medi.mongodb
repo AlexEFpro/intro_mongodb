@@ -1,0 +1,14 @@
+use("Media")
+db.Media.updateOne({_id: ObjectId("652bf83a6c99a22e7a421225")},
+{$set:{
+canciones:[
+  {cancion:1,
+  titulo: 'Adiós mi barco',
+  longitud: '3:20'
+  },
+  {cancion:2,
+  titulo: 'Pajaritos',
+  longitud: '4:15' }
+]
+}})
+db.Media.find()
