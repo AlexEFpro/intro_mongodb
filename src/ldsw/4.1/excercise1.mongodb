@@ -1,0 +1,11 @@
+use("Hierbana")
+db.products.find({
+  category: "kits",
+  stock: 70
+}).count()
+db.products.find({
+  $and:[
+    {category: "kits"},
+    {stock: 70}
+  ]
+})
